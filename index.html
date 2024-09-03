@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Feedback Page</h1>
+    </div>
+    <div class="content">
+        <div class="contentbox">
+            <h2>Abishek M</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit, quo facere ad tempore iure nesciunt voluptatem. Tenetur dolor nulla, consequuntur tempore sequi laborum praesentium repellendus vero optio nostrum eveniet!</p>
+            <button onclick="deletebtn(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay"></div>   
+    <div class="popup-box">
+        <h2>Add Feedback</h2>
+        <input type="text" placeholder="Your Name" id="input-text">
+        <textarea placeholder="Despriction" id="textarea-text"></textarea>
+        <button id="add-popup">Add</button>
+        <button id="cancel-popup">Cancel</button>
+    </div>
+
+    <button class="add-btn" id="add-button">+</button>
+
+    <script src ="script.js"></script>
+</body>
+</html> 
